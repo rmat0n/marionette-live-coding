@@ -1,0 +1,82 @@
+{
+	"name": "todo-mvc-example",
+	"description": "Todo MVC with Backbone.Marionette (live coding presentation)",
+	"version": "1.1.0",
+	"author": "rmat0n",
+
+	"main": "server/app.js",
+	"keywords": [
+		"backbone",
+		"plugin",
+		"marionette",
+		"composite",
+		"architecture",
+		"single",
+		"page",
+		"app",
+		"todo",
+		"live-coding"
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/rmat0n/marionette-live-coding/blob/master/license.txt"
+		}
+	],
+	"author": {
+		"name": "Romain Maton",
+		"email": "romain.maton@gmail.com",
+		"url": "http://web-tambouille.fr/"
+	},
+	"bugs": {
+		"url": "https://github.com/rmat0n/marionette-live-coding/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:rmat0n/marionette-live-coding.git"
+	},
+	"github": "https://github.com/rmat0n/marionette-live-coding/",
+
+	"dependencies": {
+		"express": "~3.4.6",
+		"request": "~2.21.0",
+		"async": "~0.2.8",
+		"mongodb": "~1.3.6",
+		"baucis": "~0.15.1",
+		"mongoose": "~3.8.1",
+		"baucis-swagger": "~0.2.5",
+		"express-hbs": "~0.7.9",
+		"underscore": "~1.5.0"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-copy": "~0.4.0",
+		"grunt-contrib-concat": "~0.2.0",
+		"grunt-contrib-coffee": "~0.6.6",
+		"grunt-contrib-handlebars": "~0.5.8",
+		"grunt-contrib-uglify": "~0.2.0",
+		"grunt-contrib-compass": "~0.7.2",
+		"grunt-contrib-jshint": "~0.4.3",
+		"grunt-contrib-cssmin": "~0.6.0",
+		"grunt-contrib-connect": "0.3.0",
+		"grunt-contrib-clean": "0.4.0",
+		"grunt-contrib-htmlmin": "0.1.3",
+		"grunt-contrib-imagemin": "0.1.4",
+		"grunt-contrib-livereload": "0.1.2",
+		"grunt-mocha": "~0.3.1",
+		"grunt-bower-requirejs": "~0.4.1",
+		"grunt-usemin": "~0.1.10",
+		"grunt-requirejs": "~0.4.0",
+		"grunt-open": "~0.2.0",
+		"grunt-express-server": "~0.4.1",
+		"matchdep": "~0.1.2",
+		"mocha-phantomjs": "~3.1.0",
+		"jshint-stylish": "~0.1.3",
+		"grunt-exec": "~0.4.2",
+		"grunt-contrib-watch": "~0.4.4",
+		"time-grunt": "~0.1.1"
+	},
+	"engines": {
+		"node": ">=0.8.0"
+	}
+}

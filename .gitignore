@@ -1,0 +1,6 @@
+.sass-cache
+.tmp/
+app/y
+dist
+node_modules
+temp
